@@ -1,0 +1,76 @@
+{
+  "stories": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "media": [
+        {
+          "id": "1a",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=600&fit=crop"
+        },
+        {
+          "id": "1b",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=600&fit=crop"
+        }
+      ],
+      "timestamp": "2024-01-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b550?w=150&h=150&fit=crop&crop=face",
+      "media": [
+        {
+          "id": "2a",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=600&fit=crop"
+        },
+        {
+          "id": "2b",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=600&fit=crop"
+        }
+      ],
+      "timestamp": "2024-01-01T11:30:00Z"
+    },
+    {
+      "id": "3",
+      "username": "alex_photo",
+      "userAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "media": [
+        {
+          "id": "3a",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=600&fit=crop"
+        }
+      ],
+      "timestamp": "2024-01-01T14:20:00Z"
+    },
+    {
+      "id": "4",
+      "username": "travel_lover",
+      "userAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "media": [
+        {
+          "id": "4a",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=600&fit=crop"
+        },
+        {
+          "id": "4b",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=600&fit=crop"
+        },
+        {
+          "id": "4c",
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=600&fit=crop"
+        }
+      ],
+      "timestamp": "2024-01-01T16:45:00Z"
+    }
+  ]
+}
