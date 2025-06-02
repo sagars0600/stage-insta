@@ -1,50 +1,36 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Instagram-Stories-Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simplified, mobile-only “Instagram Stories” feature built with **React** and **TypeScript**. Users can scroll through a horizontal list of story thumbnails, open a story, tap left/right to navigate between stories, and watch each story automatically advance every 5 seconds. No backend or persistence is implemented—focus is purely on UI/UX, transitions, and end-to-end testing.
 
-## Available Scripts
+## Live Deployment
 
-In the project directory, you can run:
+[https://your-deployment-link.com](https://your-deployment-link.com)
 
-### `npm start`
+> **Note:** Replace the URL above with your actual deployment (e.g., a Vercel/Netlify link).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Mobile-only UI**: Designed and styled exclusively for smaller viewports (≤ 480px width).
+- **Horizontal Story Carousel**: Displays a scrollable list of image thumbnails fetched from a static JSON file.
+- **Story Viewer**  
+  - Tap a thumbnail to open full-screen view.  
+  - Tap left/right side to go to previous/next story.  
+  - Each story automatically advances to the next after 5 seconds.  
+  - Loading indicator while each image loads.  
+  - Smooth CSS transitions between stories.  
+- **No External UI-Library for Core Logic**: All navigation, timing, and transition logic is handwritten in React/TypeScript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** ≥ 16 (recommended: Node 18 LTS)  
+- **npm** ≥ 8 (bundled with Node.js)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# stage-insta
->>>>>>> e840822275a6bf002f4bf349e1ebacb0ad2af53b
+You can verify your versions by running:
+```bash
+node -v
+npm -v

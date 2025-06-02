@@ -91,7 +91,7 @@ const StoryViewer: React.FC<StoryViewerProps> = ({ stories, initialStoryIndex, o
           <X size={24} />
         </button>
 
-        <div className="absolute top-16 left-4 right-4 z-20 flex items-center space-x-3">
+        <div className="absolute top-6 left-4 right-4 z-20 flex items-center space-x-3">
           <img
             src={currentStory.userAvatar}
             alt={currentStory.username}
