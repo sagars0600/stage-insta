@@ -12,9 +12,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "types": [
+      "cypress",
+      "node"
+    ]
   },
   "include": [
-    "src"
+    "src",
+    "cypress/**/*.ts"
   ]
 }
